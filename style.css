@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fffde6;
+  text-align: center;
+  padding: 50px;
+}
+
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: inline-block;
+  max-width: 500px;
+}
+
+h1 {
+  color: #444;
+}
+
+button {
+  background-color: orange;
+  color: white;
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: darkorange;
+}
+
+#storyOutput {
+  margin-top: 25px;
+  font-size: 20px;
+  color: #333;
+}
