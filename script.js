@@ -1,3 +1,4 @@
+// Storymaker logic by Samir
 // This function randomly picks one element from any given array
 function pickRandom(array) {
   return array[Math.floor(Math.random() * array.length)];
